@@ -20,7 +20,7 @@ const HomeRoutesLayout = () => {
                         },
                     }),
             }}>
-            <Stack.Screen name='index' />
+            <Stack.Screen name='index' options={{ headerTitle: "Shopping Lists" }} />
         </Stack>
     )
 }
